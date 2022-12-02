@@ -1,0 +1,225 @@
+:root{
+    --gray-color: #e1e1e1; 
+    --blue-color: #385185;
+}
+
+
+
+/*Reset Values*/
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: #fafafa;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main--login{
+    width: 66%;
+    margin: 20px auto;
+}
+
+/* .box1{
+    border: 1px solid var(--gray-color);
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+
+.box2{
+    border: 1px solid var(--gray-color);
+    background-color: #ffffff;
+    margin-top: 10px;
+    
+    vertical-align: middle;
+    align-content: center;
+    
+    height: 60px;
+
+
+} */
+
+
+.main--login .main--title{
+    text-align: center;
+    margin: 36px 0;
+}
+
+.main--login .main--title > img{
+    width: 60%;
+    margin-top: 10px;
+}
+
+/* Estyles to Forms*/
+
+.login--form{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.login--form .form--input{
+    width: 100%;
+    height: 38px;
+    padding: 5px;
+    margin: 3px 0;
+    border-radius: 3px;
+    border: 1px solid var(--gray-color);
+    background-color: #fafafa;
+    font-size: 1.2rem;
+}
+
+.login--form .form--button{
+    background-color:#b2dffc;
+    color: aliceblue;
+    border: 0;
+    border-radius: 3px;
+    display: block;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    margin: 10px auto 0px auto;
+}
+
+.divisor{
+    font-size: small;
+    color: var(--gray-color);
+    display: flex;
+    justify-content: center;
+    margin: 8px 0;
+    position: relative;
+}
+
+.or{
+
+    position: absolute;
+    top: 30%;
+    color: #8e9198;
+
+}
+
+.divisor div{
+    width: 40%;
+    height: 1px;
+    margin: 20px;
+    background-color: #dbdbdb;
+}
+
+/* Links style */
+
+
+
+.alternative--link{
+    color: var(--blue-color);
+    display: flex;
+    text-align: center;
+
+}
+
+
+
+.alternative--link__bold{
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 10px;
+    justify-content: center;
+    
+    
+}
+
+#facebook{
+    width: 15px;
+    text-align: center;
+    margin-right: 5px;
+
+}
+
+.alternative--link__small{
+    
+    color: #5095f7;
+    font-size: small;
+    text-align: center;
+    justify-content: center;
+    
+   
+}
+
+.alternative--paragraph{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+
+.links--paragraphs{
+    margin: 50px 0 25px;
+    text-align: center;
+
+}
+
+.box1{
+    margin-bottom: 60px;
+}
+
+/* Buttons Img */
+
+.login--links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+
+.links--list1 a img{
+    
+    height: 40px;
+    display: inline-flex;
+    border-radius: 10px;
+    margin: 5px;
+    
+    
+}
+
+.links--list2 a img{
+    height: 40px;
+    display: inline-flex;
+    margin: 5px;
+    
+    
+}
+
+.footer--list{
+    display: flex;
+    width: 90%;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer--list li{
+    margin: 5px;
+    color: var(--gray-color);
+}
+
+.footer--list li a{
+    /* margin: 5px; */
+    color: gray;
+    font-size: smaller;
+}
