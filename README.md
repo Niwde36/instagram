@@ -1,1 +1,2 @@
-# Este es una muestra de frontend realizada por Edwin Salazar 16/11/2022 - Clon de Instagram para el portafolio, si quieres comunicarte conmigo puedes escribir al WhatsApp 3123777210 recuerda colocar los indicativos para Bogotá - Colombia, gracias por ver.
+# Esta es una muestra de frontend responsive realizada por Edwin Salazar 16/11/2022 - Clon de Instagram para mi portafolio, si quieres comunicarte conmigo puedes escribir al WhatsApp +57 3123777210 gracias por ver.
+Colombia - 2022
